@@ -1,0 +1,49 @@
+# ==========================================
+# GAME BEDHEK ANGKA (TEBAK ANGKA 1-10)
+# Versi Stabil - Ne Jowo (.nj)
+# ==========================================
+
+aturaken "=== GAME BEDHEK ANGKA ==="
+aturaken "Komputer wis nyimpen angka rahasia antara 1 nganti 10."
+aturaken "Monggo bedhek angkane! (Maksimal 3 Nyoba)"
+aturaken "----------------------------------------"
+
+# Angka rahasia lan status game
+angka_bener gadhah 7
+menang gadhah 0
+
+# --- NYOBA KAPING 1 ---
+aturaken "Nyoba kaping: 1"
+aturaken "Lebokake bedhekanmu:"
+bedhekan nyuwun
+
+yen bedhekan gadhah angka_bener banjur menang gadhah 1
+yen menang gadhah 1 banjur aturaken "Selamat! Bedhekan sampeyan JOSS, bener banget!"
+yen menang gadhah 0 banjur aturaken "Eman-eman, bedhekan sampeyan isih luput."
+aturaken "----------------------------------------"
+
+# --- NYOBA KAPING 2 ---
+yen menang gadhah 0 banjur aturaken "Nyoba kaping: 2"
+yen menang gadhah 0 banjur aturaken "Lebokake bedhekanmu:"
+yen menang gadhah 0 banjur bedhekan nyuwun
+
+yen menang gadhah 0 banjur yen bedhekan gadhah angka_bener banjur menang gadhah 1
+yen menang gadhah 1 banjur yen bedhekan gadhah angka_bener banjur aturaken "Selamat! Bedhekan sampeyan JOSS, bener banget!"
+yen menang gadhah 0 banjur aturaken "Eman-eman, bedhekan sampeyan isih luput."
+aturaken "----------------------------------------"
+
+# --- NYOBA KAPING 3 ---
+yen menang gadhah 0 banjur aturaken "Nyoba kaping: 3"
+yen menang gadhah 0 banjur aturaken "Lebokake bedhekanmu:"
+yen menang gadhah 0 banjur bedhekan nyuwun
+
+yen menang gadhah 0 banjur yen bedhekan gadhah angka_bener banjur menang gadhah 1
+yen menang gadhah 1 banjur yen bedhekan gadhah angka_bener banjur aturaken "Selamat! Bedhekan sampeyan JOSS, bener banget!"
+
+# --- HASIL AKHIR (GAME OVER) ---
+aturaken "----------------------------------------"
+yen menang gadhah 0 banjur aturaken "Game Over! Nyawa sampeyan wis entek."
+yen menang gadhah 0 banjur aturaken "Angka sing bener mau yoiku:"
+yen menang gadhah 0 banjur aturaken angka_bener
+
+yen menang gadhah 1 banjur aturaken "Matur nuwun wis dolanan Game Ne Jowo!"

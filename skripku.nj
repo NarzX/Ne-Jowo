@@ -1,0 +1,14 @@
+aturaken "Sopo jenengmu?"
+jeneng nyuwun
+
+aturaken "Piro umurmu saiki?"
+umur nyuwun
+
+umur_sesuk gadhah umur ditambah 5
+
+aturaken "Halo "
+aturaken jeneng
+aturaken "Umurmu 5 tahun engkas yoiku:"
+aturaken umur_sesuk
+
+yen umur luwih_akeh 17 banjur aturaken "Sampeyan wis dewasa!" utawa 
