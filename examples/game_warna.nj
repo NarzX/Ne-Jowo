@@ -1,0 +1,31 @@
+# ==================================================
+# PROGRAM TES WARNA NE JOWO ( .nj ) v2.1.0
+# Mudah, Terstruktur, lan Nyenengke Mripat
+# ==================================================
+
+aturaken "=== BERKAS TES FITUR WARNA v2.1.0 ==="
+aturaken "Nyoba fungsionalitas warna ijo otomatis soko mesin..."
+aturaken "--------------------------------------------------"
+
+# Deklarasi Variabel
+jeneng gadhah "NarzX"
+versi gadhah "v2.1.0"
+
+aturaken "Sugeng rawuh master"
+aturaken jeneng
+
+aturaken "Mesin Ne Jowo sampeyan wis sukses di-upgrade menyang versi:"
+aturaken versi
+
+# Tes Logika Percabangan Berwarna
+status_aktif gadhah 1
+
+yen status_aktif podo_karo 1 banjur
+    aturaken "Status Sistem: AMAN LAN JOSS!"
+    aturaken "Kabeh teks iki otomatis metu nganggo warna ijo padang."
+utawa
+    aturaken "Sistem mati."
+wis_rampung
+
+aturaken "--------------------------------------------------"
+aturaken "Matur nuwun wis nganyari kode mesin Ne Jowo!"
