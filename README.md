@@ -1,6 +1,9 @@
 # Ne Jowo (.nj) Programming Language
-
 Bahasa pemrograman kustom berbasis Python dengan cita rasa kearifan lokal (Bahasa Jawa) yang dirancang khusus untuk dijalankan di lingkungan CLI/Terminal seperti Termux.
+<p align="center">
+  <img src="assets/ne-jowo-logo.jpg" width="400" alt="Logo Ne Jowo">
+</p>
+
 
 ## 🚀 Fitur Utama
 - **`aturaken`** : Perintah mencetak teks/variabel ke layar (`print`).
